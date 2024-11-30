@@ -36,12 +36,12 @@ import qrcode
 from PIL import Image
 
 # Create a QR code object with customization options
-qr = qrcode.QRCode(
+```qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_H,
     box_size=10,
     border=4
-)
+)```
 
 # Add data to the QR code
 qr.add_data("https://www.linkedin.com/in/mohit-yavarna-967897264/")
