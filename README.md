@@ -1,20 +1,19 @@
-QR Code Generator
+# QR Code Generator
 This project creates QR codes for any URL using Python. It includes examples for both basic and customized QR codes.
 
-Features
-Generate a simple QR code for a URL.
-Customize QR code with foreground and background colors.
-Save the QR code as a PNG image.
-Requirements
-Python 3.10 or higher
-qrcode library
-Pillow library
-Installation
+## Features
+1. Generate a simple QR code for a URL.
+2. Customize QR code with foreground and background colors.
+3. Save the QR code as a PNG image.
+## Requirements
+1. Python 3.10 or higher
+2. qrcode library
+3. Pillow library
+## Installation
 Install the required libraries:
-
-bash
-Copy code
+```python
 pip install qrcode pillow
+```
 (Optional) Update pip to the latest version:
 
 bash
@@ -36,6 +35,7 @@ import qrcode
 from PIL import Image
 
 # Create a QR code object with customization options
+
 ```qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_H,
