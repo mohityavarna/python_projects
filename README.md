@@ -50,8 +50,12 @@ img = qr.make_image(fill_color="blue", back_color="white")
 img.save("mohit_linkedin1.png")
 ```
 ### Output
-mohit_linkedIN.png: Basic QR code
+mohit_linkedIN.png: Basic QR code![mohit_linkedin1](https://github.com/user-attachments/assets/e3cadda9-831c-4f11-8c7d-fe900f551c33)
+
+
 mohit_linkedin1.png: Customized QR code with a blue foreground and white background.
+![mohit_linkedIN](https://github.com/user-attachments/assets/51c18d28-4211-45e2-9103-fbce4fdf7921)
+
 ### Notes
 The fill_color and back_color options can be adjusted to create QR codes with different color schemes.
 Make sure the required libraries are installed before running the code.
