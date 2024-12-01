@@ -23,8 +23,6 @@ import qrcode as qr
 img = qr.make("https://www.linkedin.com/in/mohit-yavarna-967897264/")
 img.save("mohit_linkedIN.png")
 Generating a Customized QR Code
-python
-Copy code
 import qrcode
 from PIL import Image
 ```
